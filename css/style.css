@@ -1,0 +1,62 @@
+    body {
+        margin: 0;
+    }
+    /* Estilos asociados al encabezado */
+    
+    #header {
+        /* Propiedad que permimte alterar la altura*/
+        height: 100vh;
+        background-image: url("../img/header_background.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #header h1 {
+        color: white;
+        margin: 0;
+        padding: 0 20%;
+        font-size: 50px;
+    }
+    /* Mi version
+div h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+    
+    #main {
+        padding: 0 20%;
+    }
+    
+    #main p {
+        font-size: 20px;
+    }
+    
+    #main h1 {
+        font-size: 40px;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        #header h1 {
+            padding: 1%;
+            font-size: 35px;
+        }
+        #main {
+            padding: 1%;
+        }
+        #main p {
+            font-size: 15px;
+        }
+        #main h1 {
+            font-size: 35px;
+        }
+    }
