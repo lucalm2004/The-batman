@@ -19,6 +19,9 @@ a {
     background-image: url("../img/header_background.jpeg");
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #header h1 {
@@ -81,6 +84,12 @@ img {
     color: white;
     text-align: center;
     padding-top: 1%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 700px) {
